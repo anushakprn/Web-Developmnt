@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Forgot Page</title>
+    <style>
+        body {
+            background-color: rgba(191, 224, 246, 0.928);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(115, 115, 216);
+            padding: 10px;
+        }
+        .header-left {
+            color: rgb(221, 224, 224);
+            font-size: large;
+        }
+        .header-right {
+            display: flex;
+            gap: 10px;
+        }
+        .header-right a {
+            color: rgb(221, 224, 224);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        h1, p {
+            color: black;
+        }
+        input[type="text"] {
+            margin: 10px 0;
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .button-container input {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left"><strong>LinkedIn</strong></div>
+        <div class="header-right">
+            <a href="#join-now"><strong>Join Now</strong></a>
+            <a href="#sign-in"><strong>Sign In</strong></a>
+        </div>
+    </header>
+    <h1><strong>First, Let's Find Out Your Account</strong></h1>
+    <p>Please enter your Email or Phone Number</p>
+    <input type="text" name="identifier" id="identifier" placeholder="Email or Phone Number">
+    <div class="button-container">
+        <input type="button" value="Cancel">
+        <input type="button" value="Find Account">
+    </div>
+</body>
+</html>
